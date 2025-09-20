@@ -28,27 +28,26 @@ sensor_monitoring_system/
 
 ## Setup Instructions
 
-1. Create the directory structure as shown above.
+1. Create virtual env for running the code.
 2. Install dependencies:  
-   `pip install google-adk python-dotenv`
-3. Place the code files in appropriate locations.
-4. Set your Google API key in `.env`.
+   ```pip install google-adk python-dotenv```
+3. Set your Google API key in `.env`.
 
 ## Usage
 
 Run the following:
 
 ```bash
+cd sensor_monitoring_system
 python main.py
 ```
+
+You should be able to converse with our chat application (for now it's in terminal).
 
 ### Example Commands
 
 - Set constraints: "Set temperature between 20 and 30 degrees"
-- Get readings: "Get current sensor readings"
-- Analyze data: "Analyze the latest readings"
 - Generate report: "Generate a detailed report"
-- Start monitoring: "Start continuous monitoring"
 
 ## System Features
 
