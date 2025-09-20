@@ -4,6 +4,7 @@ A stateful multi-agent sensor monitoring system built with Google's Agent Develo
 
 ## Project Structure
 
+```
 sensor_monitoring_system/
 ├── main.py
 ├── utils.py
@@ -22,6 +23,7 @@ sensor_monitoring_system/
         └── analysis_agent/
             ├── init.py
             └── agent.py
+```
 
 
 ## Setup Instructions
